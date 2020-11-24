@@ -3,7 +3,7 @@ const { v4: uuidv4 } = require('uuid');
 
 module.exports = function (RED) {
     const { Client, Variables, BasicAuthInterceptor, logger } = require("camunda-external-task-client-js");
-    const AlpineCodeSDK = require("@alpine-code/alpine-code-sdk-js");
+    const AlpineCodeSDK = require("@alpine-code/nodejs-camunda");
 
     function CamundaConfigNode(config) {
         RED.nodes.createNode(this, config);
