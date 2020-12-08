@@ -1,6 +1,6 @@
 {
     "name": "@alpine-code/node-red-contrib-camunda",
-    "version": "2.0.2",
+    "version": "2.1.0",
     "description": "Camunda for Node-RED ",
     "main": "index.js",
     "scripts": {
@@ -31,6 +31,7 @@
         "@alpine-code/nodejs-camunda": "0.0.1",
         "camunda-external-task-client-js": "^2.0.0",
         "lodash": "^4.17.15",
+        "moment": "^2.29.1",
         "uuid": "^3.3.2"
     },
     "devDependencies": {
